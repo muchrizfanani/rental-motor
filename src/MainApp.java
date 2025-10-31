@@ -3,7 +3,7 @@
  */
 public class MainApp {
 
-    public static void main(String[] args) { //fitur baru
+    public static void main(String[] args) { //fitur baru 2
 
         // Menentukan harga otomatis berdasarkan jenis motor
         String motorDipilih = "Yamaha NMAX";   // bisa diganti menjadi motor lain
