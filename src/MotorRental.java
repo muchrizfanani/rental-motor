@@ -28,6 +28,24 @@ public class MotorRental {
         this.setDailyRate(motorInfo.dailyRate());
     }
 
+
+    /**
+     * Method baru untuk menentukan harga otomatis berdasarkan jenis motor.
+     *
+     * @param motorType jenis motor yang ingin disewa
+     * @return harga sewa per hari
+     */
+
+    public static double getRateByMotorType(String motorType) {
+        return switch (motorType) {
+            case "Yamaha NMAX" -> 120000;
+            case "Honda Vario" -> 90000;
+            case "Yamaha Aerox" -> 110000;
+            case "Honda PCX" -> 125000;
+            default -> 80000; // harga standar jika motor tidak terdaftar
+        };
+    }
+
     /**
      * Menghitung total biaya sewa.
      * Jika lama sewa lebih dari DISCOUNT_THRESHOLD,
