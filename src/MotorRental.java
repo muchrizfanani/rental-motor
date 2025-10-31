@@ -36,7 +36,7 @@ public class MotorRental {
      * @return harga sewa per hari
      */
 
-    public static double getRateByMotorType(String motorType) {
+    public static double getRateByMotorType(String motorType) { //tambah fitur
         return switch (motorType) {
             case "Yamaha NMAX" -> 120000;
             case "Honda Vario" -> 90000;
