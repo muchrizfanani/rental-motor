@@ -8,5 +8,5 @@ Program ini merupakan aplikasi sederhana untuk menghitung total biaya sewa motor
 - Menampilkan invoice secara otomatis di layar.
 
 ## Cara Menjalankan
-1. Compile program:
-2. Jalankan program:
+1. Compile program
+2. Jalankan program
